@@ -42,3 +42,9 @@
     .learn-more a{
     color: #00b0ff;
         }
+
+h1 { border: 1px solid blue; }
+h2 { border: 1px solid blue; }
+p { border: 1px solid blue; }
+em { border: 1px solid blue; }
+img { border: 1px solid blue; }
