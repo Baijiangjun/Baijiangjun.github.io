@@ -45,6 +45,7 @@
     
     strong{
         font-size: 0.5em;
+        font-variant: small-caps;
     }
 
 h1 { border: 1px solid blue; }
