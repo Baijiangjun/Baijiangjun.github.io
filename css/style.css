@@ -62,3 +62,8 @@ a:visited {
 color: gray;
 text-decoration: none;
 }
+a:hover {
+color: maroon;
+text-decoration: underline;
+background-color: #C4CEF8;
+}
