@@ -51,7 +51,7 @@ Intro
 }
 .intro header h2 {
 	position: relative;
-	background: #0d2c40 url(../img/icon-star.PNG) no-repeat left bottom;
+	background: #0d2c40 url(../Images/icon-star.PNG) no-repeat left bottom;
 	background-size: 101%;
 	float: right;
 	color: #ffffff;
@@ -70,7 +70,7 @@ Intro
 	color: #ffffff;
 	width: 60%;
 	float: right;
-	background: #c879b2 url(../img/icons-3-pack.PNG);
+	background: #c879b2 url(../Images/icons-3-pack.PNG);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 101%;
@@ -127,7 +127,7 @@ Intro
 	box-sizing: border-box;
 }
 .main {
-	background: url(../img/mid-century-1.jpg) no-repeat right center;
+	background: url(../Images/mid-century-1.jpg) no-repeat right center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -156,7 +156,7 @@ Intro
 	border-bottom: 0px solid transparent;
 }
 .main .explanation {
-	background: #0d2c40 url(../img/icon-half.PNG);
+	background: #0d2c40 url(../Images/icon-half.PNG);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: 30%;
