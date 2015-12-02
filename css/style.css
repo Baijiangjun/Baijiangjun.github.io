@@ -1,69 +1,207 @@
-.nav a {
-    color: #5a5a5a;
-    font-size: 11px;
-    font-weight: bold;
-    padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 14px;
-    text-transform: uppercase;
-    }
-    
-    .jumbotron {
-    height: 500px;
-    background-image:url('/Images/icon.jpg')
-        }
-    
-    .jumbotron h1 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: bold;
-        }
-        
-    .jumbotron p {
-    color: #fff;
-    font-size: 20px;
-        }
-        
-    .jumbotron h1 {
-    font-family: 'Shift', sans-serif;
-    font-variant: small-caps;
-        }
-    
-    .learn-more {
-    background-color: #f7f7f7;
-        }
-        
-    .learn-more h3{
-    font-family: 'Shift', sanserif;
-    font-size: 18px;
-    font-weight: bold;
-        }
-        
-    .learn-more a{
-    color: #00b0ff;
-        }
-    
-    strong{
-        font-size: 1.5em;
-        font-variant: small-caps;
-    }
+/* 
+==========================================================================
+Page wrapper
+==========================================================================
+*/
+.page-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 120em;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* 
+==========================================================================
+Intro
+==========================================================================
+*/
+.intro {
+	overflow: hidden;
+}
+.intro header {
+	position: relative;
+	background: #c879b2;
+	overflow: hidden;
+	width: 40%;
+	height: 50em;
+	float: left;
+}
+.intro header h1 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 100%;
+	line-height: 2em;
+	top: 4.2em;
+	left: -3em;
+	width: auto;
+	margin: 0;
+	padding: 1em;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.intro header h2 {
+	position: relative;
+	background: #0d2c40 url(../img/icon-star.PNG) no-repeat left bottom;
+	background-size: 101%;
+	float: right;
+	color: #ffffff;
+	font-size: 250%;
+	line-height: 1.25em;
+	width: 50%;
+	height: 20.019em;
+	margin: 0 0 0 0;
+	padding: 6em 0.5em 0 0.5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.intro .summary {
+	font-size: 100%;
+	color: #ffffff;
+	width: 60%;
+	float: right;
+	background: #c879b2 url(../img/icons-3-pack.PNG);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 101%;
+	height: 50em;
+	margin: 0;
+	padding: 16.3em 2em 10em 2em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.intro .summary p {
+	padding: 0 40% 2em 0;
+	margin: 0;
+}
+.intro .summary a {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}
 
-h1 { border: 1px solid blue; }
-h2 { border: 1px solid blue; }
-p { border: 1px solid blue; }
-em { border: 1px solid blue; }
-img { border: 1px solid blue; }
-a:link {
-color: maroon;
-text-decoration: none;
+.intro .summary a:hover {
+	color: rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
-a:visited {
-color: gray;
-text-decoration: none;
+.intro .preamble {
+	position: relative;
+	clear: both;
+	width: 60.1%;
+	margin: 0 0 0 20%;
+	padding: 8em 0.5em 32em 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-a:hover {
-color: maroon;
-text-decoration: underline;
-background-color: #C4CEF8;
+.intro .preamble h3 {
+	font-size: 150%;
+	margin-right: 35%;
+}
+.intro .preamble p {
+	margin-right: 35%;
+}
+.intro .preamble p:last-child {
+	position: absolute;
+	z-index: 2;
+	color: #ffffff;
+	background: rgba(0, 188, 217, 0.8);
+	width: 33.650%;
+	top: -1em;
+	right: 0;
+	margin-right: 0;
+	padding: 10em 1em 20em 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main {
+	background: url(../img/mid-century-1.jpg) no-repeat right center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 28em;
+	z-index: 1;
+	top: -25em;
+	margin-bottom: 1em;
+	padding: 20em 0;
+	position: relative;
+}
+.main footer {
+	display: block;
+	position: absolute;
+	left: 1em;
+	bottom: 1em;
+	width: 20%;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main footer a {
+	margin: 0 0.25em 0;
+	display: block;
+	border-bottom: 0px solid transparent;
+}
+.main .explanation {
+	background: #0d2c40 url(../img/icon-half.PNG);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 30%;
+	position: relative;
+	color: #ffffff;
+	width: 40%;
+	margin: 0;
+	padding: 2em 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main .explanation h3 {
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	top: 6em;
+	left: -4.5em;
+	margin: 0;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.main .explanation p {
+	width: 60%;
+	padding-left: 15%;
+}
+.main .participation {
+	background: #f6efe5;
+	position: absolute;
+	right: 40%;
+	z-index: 2;
+	margin-top: 14em;
+	width: 40%;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main .participation h3 {
+	font-size: 150%;
 }
