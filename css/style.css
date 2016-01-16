@@ -13,6 +13,7 @@ Page wrapper
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	background-color: #f6efe5;
 }
 /* 
 ==========================================================================
@@ -204,4 +205,57 @@ Intro
 }
 .main .participation h3 {
 	font-size: 150%;
+}
+.main .benefits {
+  background: rgba(0, 188, 217, 0.8) url(icon-circles.svg) no-repeat left top;
+  background-size: 100%;
+  position: absolute;
+  right: 20%;
+  z-index: 2;
+  margin-top: 3em;
+  margin-left: 0;
+  width: 20%;
+  padding: 22em 1em 25em 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main .benefits h3 {
+  font-size: 150%;
+}
+.main .requirements {
+  position: absolute;
+  -moz-column-count: 2;
+  -moz-column-gap: 2em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2em;
+  right: 0;
+  z-index: 2;
+  margin: 60em 0 0 0;
+  width: 60%;
+  padding: 1em 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main .requirements p {
+  margin: 0 1em 1em 1em;
+}
+.main .requirements::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  background: url(mid-century-2.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: 2;
+  width: 60%;
+  height: 40em;
+  margin-top: 0;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
